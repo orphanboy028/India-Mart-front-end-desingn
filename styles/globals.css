@@ -141,3 +141,25 @@
 #User_DopDown_Container p {
   margin-top: 5px;
 }
+
+/* Hero section */
+
+.hero_container {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+  height: 300px;
+  padding: 20px 50px;
+}
+
+.slide_container {
+  width: 40%;
+  margin-right: 150px;
+  height: 260px;
+}
+
+.slide_container #footer_container {
+  position: absolute;
+  bottom: 0px;
+  align-items: center;
+}
