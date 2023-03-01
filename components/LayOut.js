@@ -8,11 +8,6 @@ export default function LayOut({ children }) {
       <div>
         <NavBar />
       </div>
-
-      <div>
-        <HeroSlide />
-      </div>
-
       <div>{children}</div>
 
       <div id="footer_container">

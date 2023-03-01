@@ -147,7 +147,6 @@
 .hero_container {
   display: flex;
   width: 100%;
-  border: 1px solid red;
   height: 300px;
   padding: 20px 50px;
 }
@@ -162,4 +161,32 @@
   position: absolute;
   bottom: 0px;
   align-items: center;
+}
+
+#Category_container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.Category_box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border: 0.5px solid #ccc;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CategoriesName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
 }
