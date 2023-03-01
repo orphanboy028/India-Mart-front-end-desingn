@@ -1,26 +1,143 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* NavBar css */
+#main_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #2e3192;
+  color: #fff;
+  padding: 10px 15px;
+  z-index: 8;
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.left_Part {
+  display: flex;
+  width: 50%;
+}
+
+.Brand_Box {
+  width: 30%;
+}
+
+.search_box {
+  width: 100%;
+}
+.searchBar_box {
+  display: flex;
+}
+
+.location_box {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+}
+.location_icon {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location_name {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.ClickArrow {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.searchInput {
+  display: flex;
+  width: 70%;
+}
+.searchInput input {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.Search_btn {
+  padding: 5px;
+  background: #00a699;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.getBestPrices_box {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.getBestPrices_box button {
+  padding: 5px;
+  color: #2e3192;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Right part */
+.right_part {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.box-s1 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.MenuBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* User_DopDown_Container */
+#User_DopDown_Container {
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  bottom: -395px;
+  right: 25px;
+  color: black;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+#User_DopDown_Container p {
+  margin-top: 5px;
 }
