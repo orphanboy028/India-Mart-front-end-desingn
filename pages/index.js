@@ -1,5 +1,6 @@
 import CategegorySection from "../components/CategorySection/CategegorySection";
 import HeroSlide from "../components/heroSection/heroSlide";
+import HomeCategoriesSection from "../components/HomeCategories/HomeCategoriesSection";
 import LayOut from "../components/LayOut";
 import NavBar from "../components/NavBar/NavBar";
 
@@ -13,6 +14,10 @@ export default function Home() {
 
         <div>
           <CategegorySection />
+        </div>
+
+        <div>
+          <HomeCategoriesSection />
         </div>
       </LayOut>
     </div>

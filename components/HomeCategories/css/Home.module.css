@@ -1,0 +1,50 @@
+.product_container {
+  width: 100%;
+  padding: 50px;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.categories_container {
+  display: flex;
+  min-height: 350px;
+  margin-top: 50px;
+}
+
+.Categories_banner_part {
+  width: 25%;
+  height: 435px;
+  background-image: url("../../../public/categoroes-banner/building-construction.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.categories_content_part {
+  width: 70%;
+  padding: 20px 0px;
+}
+
+.categroies_row {
+  display: flex;
+  min-height: 100px;
+  margin-top: 10px;
+}
+
+.categories_card {
+  display: flex;
+  width: 30%;
+  margin-left: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+
+.card_image {
+  padding: 5px;
+}
+
+.card_content {
+  padding: 2px;
+}
