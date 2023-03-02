@@ -1,0 +1,8 @@
+.banner_container {
+  padding: 50px;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 10px;
+  text-align: center;
+  box-sizing: content-box;
+}
