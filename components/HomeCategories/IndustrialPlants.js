@@ -3,6 +3,7 @@ import Image from "next/image";
 import baner1 from "../../public/categoroes-banner/building-construction.jpg";
 import catimage from "../../public/categoroes-banner/Turning-Fixture-1.png";
 import style from "./css/Home.module.css";
+import Link from "next/link";
 export default function IndustrialPlants() {
   return (
     <>
@@ -23,7 +24,9 @@ export default function IndustrialPlants() {
                     <Image src={catimage} width={100} height={100} />
                   </div>
                   <div className={`${style.card_content}`}>
-                    <h3>Brick Making Machines</h3>
+                    <Link href={"/product-categories"}>
+                      <h3>Brick Making Machines</h3>
+                    </Link>
                     <p>
                       Fly Ash Brick Making Machine Clay Brick Making Machine
                       Cement Brick Making Machine
