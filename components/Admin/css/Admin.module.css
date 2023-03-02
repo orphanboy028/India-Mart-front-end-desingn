@@ -1,0 +1,28 @@
+.adminLayout_main_container {
+  display: flex;
+}
+
+.sidebar_options_container {
+  width: 100px;
+  border: 0.5px solid #eee;
+}
+
+.options_feature_container {
+  width: 60%;
+  border: 0.5px solid #eee;
+}
+
+.sideBar_container {
+  width: 100%;
+}
+
+.icons_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+  cursor: pointer;
+}

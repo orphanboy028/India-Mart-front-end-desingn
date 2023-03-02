@@ -6,6 +6,7 @@ import arrowIcon from "../../public/down-arrow.png";
 import userImg from "../../public/user.png";
 import lead from "../../public/selective.png";
 import seller from "../../public/seller.png";
+import Link from "next/link";
 
 export default function NavBar() {
   const [dopDown, setDopDown] = useState(false);
@@ -62,8 +63,10 @@ export default function NavBar() {
           </div>
           <div className="box-s1">
             <div className="MenuBox">
-              <Image src={seller} alt="image" width={20} />
-              <p>Seller</p>
+              <Link href={"/admin-dash-board"}>
+                <Image src={seller} alt="image" width={20} />
+                <p>Seller</p>
+              </Link>
             </div>
           </div>
           <div className="box-s1">
